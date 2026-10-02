@@ -1,0 +1,455 @@
+{
+  "overlap": [
+    {
+      "a": "Basal",
+      "b": "LumA",
+      "top": 1000,
+      "shared": 152,
+      "differ": 45
+    },
+    {
+      "a": "Basal",
+      "b": "LumB",
+      "top": 1000,
+      "shared": 134,
+      "differ": 51
+    },
+    {
+      "a": "LumA",
+      "b": "LumB",
+      "top": 1000,
+      "shared": 397,
+      "differ": 0
+    }
+  ],
+  "hubs": {
+    "Basal": [
+      {
+        "gene": "SOX10",
+        "times": 30,
+        "out_of": 30,
+        "tf": true
+      },
+      {
+        "gene": "S100A7",
+        "times": 29,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "COL2A1",
+        "times": 29,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "DSG3",
+        "times": 29,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "ROPN1B",
+        "times": 29,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT6A",
+        "times": 27,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KLK6",
+        "times": 25,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KLK5",
+        "times": 25,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "CASP14",
+        "times": 24,
+        "out_of": 30,
+        "tf": false
+      }
+    ],
+    "LumA": [
+      {
+        "gene": "CLEC3A",
+        "times": 30,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT5",
+        "times": 30,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT14",
+        "times": 30,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT6B",
+        "times": 30,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "SOX10",
+        "times": 30,
+        "out_of": 30,
+        "tf": true
+      },
+      {
+        "gene": "CPB1",
+        "times": 29,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "DSC3",
+        "times": 29,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT17",
+        "times": 28,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "STAC2",
+        "times": 28,
+        "out_of": 30,
+        "tf": false
+      }
+    ],
+    "LumB": [
+      {
+        "gene": "CLEC3A",
+        "times": 30,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT5",
+        "times": 30,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT14",
+        "times": 30,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT6B",
+        "times": 30,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "CPB1",
+        "times": 29,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "SCGB2A2",
+        "times": 28,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "KRT17",
+        "times": 26,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "DSG3",
+        "times": 21,
+        "out_of": 30,
+        "tf": false
+      },
+      {
+        "gene": "TFAP2B",
+        "times": 21,
+        "out_of": 30,
+        "tf": true
+      }
+    ]
+  },
+  "survival": [
+    {
+      "module": "LumA_M1",
+      "subtype": "LumA",
+      "genes": 55,
+      "tcga": {
+        "hr": 0.771,
+        "low": 0.635,
+        "high": 0.937,
+        "p": 0.0089,
+        "patients": 810,
+        "deaths": 104
+      },
+      "metabric": {
+        "hr": 0.955,
+        "low": 0.887,
+        "high": 1.028,
+        "p": 0.2181,
+        "patients": 1892,
+        "deaths": 728
+      }
+    },
+    {
+      "module": "LumB_M1",
+      "subtype": "LumB",
+      "genes": 31,
+      "tcga": {
+        "hr": 0.784,
+        "low": 0.652,
+        "high": 0.943,
+        "p": 0.0098,
+        "patients": 810,
+        "deaths": 104
+      },
+      "metabric": {
+        "hr": 0.944,
+        "low": 0.878,
+        "high": 1.015,
+        "p": 0.1215,
+        "patients": 1892,
+        "deaths": 728
+      }
+    },
+    {
+      "module": "Basal_M1",
+      "subtype": "Basal",
+      "genes": 14,
+      "tcga": {
+        "hr": 0.82,
+        "low": 0.677,
+        "high": 0.992,
+        "p": 0.0412,
+        "patients": 810,
+        "deaths": 104
+      },
+      "metabric": {
+        "hr": 1.005,
+        "low": 0.934,
+        "high": 1.082,
+        "p": 0.8895,
+        "patients": 1892,
+        "deaths": 728
+      }
+    }
+  ],
+  "network": {
+    "hub": "SOX10",
+    "partners": [
+      {
+        "gene": "ROPN1",
+        "weight": 0.702
+      },
+      {
+        "gene": "ELF5",
+        "weight": 0.573
+      },
+      {
+        "gene": "ROPN1B",
+        "weight": 0.568
+      },
+      {
+        "gene": "MIA",
+        "weight": 0.461
+      },
+      {
+        "gene": "TTYH1",
+        "weight": 0.373
+      },
+      {
+        "gene": "TPRG1",
+        "weight": 0.309
+      },
+      {
+        "gene": "AQP5",
+        "weight": 0.286
+      },
+      {
+        "gene": "COL2A1",
+        "weight": 0.269
+      },
+      {
+        "gene": "CHRM1",
+        "weight": 0.263
+      },
+      {
+        "gene": "UGT8",
+        "weight": 0.25
+      },
+      {
+        "gene": "PTPRZ1",
+        "weight": 0.241
+      },
+      {
+        "gene": "PPP1R1B",
+        "weight": 0.234
+      }
+    ],
+    "links": [
+      {
+        "a": "AQP5",
+        "b": "CHRM1",
+        "weight": 0.135
+      },
+      {
+        "a": "AQP5",
+        "b": "COL2A1",
+        "weight": 0.207
+      },
+      {
+        "a": "AQP5",
+        "b": "PPP1R1B",
+        "weight": 0.159
+      },
+      {
+        "a": "AQP5",
+        "b": "ROPN1",
+        "weight": 0.212
+      },
+      {
+        "a": "AQP5",
+        "b": "ROPN1B",
+        "weight": 0.335
+      },
+      {
+        "a": "AQP5",
+        "b": "TTYH1",
+        "weight": 0.197
+      },
+      {
+        "a": "CHRM1",
+        "b": "ROPN1B",
+        "weight": 0.161
+      },
+      {
+        "a": "CHRM1",
+        "b": "TTYH1",
+        "weight": 0.167
+      },
+      {
+        "a": "COL2A1",
+        "b": "MIA",
+        "weight": 0.178
+      },
+      {
+        "a": "COL2A1",
+        "b": "PTPRZ1",
+        "weight": 0.251
+      },
+      {
+        "a": "COL2A1",
+        "b": "ROPN1B",
+        "weight": 0.176
+      },
+      {
+        "a": "COL2A1",
+        "b": "TTYH1",
+        "weight": 0.187
+      },
+      {
+        "a": "ELF5",
+        "b": "MIA",
+        "weight": 0.205
+      },
+      {
+        "a": "ELF5",
+        "b": "ROPN1",
+        "weight": 0.29
+      },
+      {
+        "a": "ELF5",
+        "b": "ROPN1B",
+        "weight": 0.312
+      },
+      {
+        "a": "ELF5",
+        "b": "UGT8",
+        "weight": 0.154
+      },
+      {
+        "a": "MIA",
+        "b": "ROPN1",
+        "weight": 0.361
+      },
+      {
+        "a": "MIA",
+        "b": "ROPN1B",
+        "weight": 0.343
+      },
+      {
+        "a": "MIA",
+        "b": "TTYH1",
+        "weight": 0.281
+      },
+      {
+        "a": "MIA",
+        "b": "UGT8",
+        "weight": 0.168
+      },
+      {
+        "a": "PPP1R1B",
+        "b": "ROPN1B",
+        "weight": 0.185
+      },
+      {
+        "a": "PTPRZ1",
+        "b": "ROPN1",
+        "weight": 0.192
+      },
+      {
+        "a": "PTPRZ1",
+        "b": "ROPN1B",
+        "weight": 0.249
+      },
+      {
+        "a": "ROPN1",
+        "b": "ROPN1B",
+        "weight": 0.558
+      },
+      {
+        "a": "ROPN1",
+        "b": "TTYH1",
+        "weight": 0.211
+      },
+      {
+        "a": "ROPN1",
+        "b": "UGT8",
+        "weight": 0.148
+      },
+      {
+        "a": "ROPN1B",
+        "b": "TTYH1",
+        "weight": 0.333
+      },
+      {
+        "a": "ROPN1B",
+        "b": "UGT8",
+        "weight": 0.151
+      }
+    ]
+  }
+}
