@@ -993,9 +993,61 @@ code {
 
 .research-notes {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   margin-top: clamp(56px, 7vw, 88px);
+}
+
+.community-head {
+  margin: clamp(40px, 5vw, 64px) 0 20px;
+}
+
+.music-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: clamp(24px, 4vw, 56px);
+  align-items: start;
+}
+
+.music-photo {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.music-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius) - 6px);
+  object-fit: cover;
+}
+
+.music-photo figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-family: var(--font-code);
+  font-size: 0.74rem;
+  color: var(--text-2);
+}
+
+.game-video {
+  margin: clamp(32px, 4vw, 48px) 0 0;
+}
+
+.game-video video {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+.game-video figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-family: var(--font-code);
+  font-size: 0.74rem;
+  color: var(--light-2);
 }
 
 .table-scroll {
@@ -1822,8 +1874,12 @@ code {
 }
 
 @media (max-width: 900px) {
-  .hero-grid, .about-grid, .project-head, .finding, .project-feature, .math-grid, .contact-grid {
+  .hero-grid, .about-grid, .project-head, .finding, .project-feature, .math-grid, .music-grid, .contact-grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .music-photo {
+    max-width: 420px;
   }
 
   .net-card {
