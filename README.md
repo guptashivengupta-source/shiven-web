@@ -1,6 +1,6 @@
 # Shiven Gupta website
 
-Sample student website for the web design tutorial. The photo, GitHub link and research results are real. The school, grades, awards and stats are made up for the example.
+Personal website for Shiven Gupta, senior at Prosper High School (Class of 2027) — UNT IDEA Lab student researcher, two-time AIME qualifier, All-State tenor and club basketball player.
 
 Research code: https://github.com/guptashivengupta-source/genie3_brca_project
 
