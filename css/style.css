@@ -558,6 +558,26 @@ code {
   border-radius: 22px;
 }
 
+.photo-stat {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-family: var(--font-code);
+  font-size: 0.86rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--light-2);
+}
+
+.photo-stat .stat-num {
+  font-family: var(--font-title);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--peach);
+}
+
 .net {
   width: 100%;
   height: auto;
